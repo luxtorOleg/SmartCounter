@@ -16,7 +16,8 @@ namespace SmartCounter.Controllers
         }
 
         public ActionResult About()
-        {//test from Marta
+        {
+            ViewBag.Title = "About";
             return View();
         }
     }
