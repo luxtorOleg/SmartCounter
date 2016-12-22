@@ -14,5 +14,10 @@ namespace SmartCounter.Controllers
 
             return View();
         }
+
+        public ActionResult About()
+        {//test from Marta
+            return View();
+        }
     }
 }
