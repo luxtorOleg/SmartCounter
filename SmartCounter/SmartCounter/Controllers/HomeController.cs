@@ -17,8 +17,6 @@ namespace SmartCounter.Controllers
 
         public ActionResult About()
         {
-            int a = 10; //Marta
-            ViewBag.Title = "About";
             return View();
         }
     }
